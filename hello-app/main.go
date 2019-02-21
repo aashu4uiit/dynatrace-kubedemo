@@ -51,5 +51,9 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("")
 	fmt.Fprintf(w, "Thanks\n")
 	fmt.Fprintf(w, "Aashish\n")
-	}
+	
+	fmt.Println("Hello, playground")
+	fmt.Println("")
+	fmt.Println("playground")
+		}
 // [END all]
