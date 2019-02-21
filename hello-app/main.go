@@ -50,6 +50,6 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "This is my kubernetes monitoring demo with Dynatrace platform.\n")
 	fmt.Fprintf(w, " \n")
 	fmt.Fprintf(w, "Thanks\n")
-	fmt.Fprintf(w, "Aashish\n")
+	fmt.Fprintf(w, "Aashish Sharma\n")
 }
 // [END all]
