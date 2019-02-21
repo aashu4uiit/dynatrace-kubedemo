@@ -44,7 +44,7 @@ func main() {
 // hello responds to the request with a plain-text "Hello, world" message.
 func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving request: %s", r.URL.Path)
-	host, _ := os.Hostname()
+//	host, _ := os.Hostname()
 	fmt.Fprintf(w, "Hello Rafi,\n")
 	fmt.Fprintf(w, "This is my kubernetes monitoring demo with Dynatrace platform,\n")
 	fmt.Fprintf(w, "Thanks\n")
