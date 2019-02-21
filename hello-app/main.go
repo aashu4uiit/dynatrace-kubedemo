@@ -46,14 +46,10 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving request: %s", r.URL.Path)
 //	host, _ := os.Hostname()
 	fmt.Fprintf(w, "Hello Rafi,\n")
-	fmt.Println("")
+	fmt.Println("\n")
 	fmt.Fprintf(w, "This is my kubernetes monitoring demo with Dynatrace platform.\n")
-	fmt.Fprintf(w, " ")
+	fmt.Fprintf(w, " \n")
 	fmt.Fprintf(w, "Thanks\n")
 	fmt.Fprintf(w, "Aashish\n")
-	
-	fmt.Println("Hello, playground")
-	fmt.Println("")
-	fmt.Println("playground")
-		}
+}
 // [END all]
